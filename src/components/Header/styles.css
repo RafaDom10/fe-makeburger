@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background-color: #222;
+  border-bottom: 4px solid #111;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav p {
+  color:  #FCBA03;
+  margin-right: 15px;
+}
+
+.nav p:hover {
+  color: white;
+}
+.nav a {
+
+ text-decoration: none;
+}
+
+#logo{
+
+  height: 100px;
+  margin: auto;
+  margin-left: 0;
+}
+
+#image {
+  display: flex;
+  background-image: url(imagens/burger.jpg);
+  background-size: cover;
+  background-position:  0 -250px;
+  background-repeat: no-repeat;
+  height: 500px;
+  align-items: center;
+}

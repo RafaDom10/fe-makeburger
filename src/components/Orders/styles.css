@@ -1,0 +1,76 @@
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+
+  #image {
+    background-size: cover;
+    background-image: url(./public/burgerpequeno.jpg);
+    background-repeat: no-repeat;
+    background-position: top, center;
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #titulo {
+    color: black;
+    margin: 80px 50px;
+    text-align: center;
+    font-size: 3.5em;
+    background-color: white;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+  thead {
+    background-color: blanchedalmond;
+    font-weight: bolder;
+    border: 1px solid black;
+  }
+  tr > td {
+    padding: 10px;
+  }
+  tr {
+    text-align: center;
+    border: 1px solid;
+  }
+
+  ul {
+    list-style: none;
+    column-count: auto;
+    padding: 5px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fcba03;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  #finalizado {
+    padding: 10px 20px;
+  }
+
+  #btn {
+    width: 20%;
+  }
+  button:hover {
+    color: white;
+  }
+  hr {
+    border: 2px solid black;
+  }
+}
+
+.btn-disabled {
+  background: #fff;
+  pointer-events: none;
+}
